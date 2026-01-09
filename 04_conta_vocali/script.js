@@ -7,8 +7,19 @@ function countVowels(str) {
 
   for (let i = 0; i < str.length; i++) {
     const char = str[i];
+    if (
+      char === "a" ||
+      char === "e" ||
+      char === "i" ||
+      char === "o" ||
+      char === "u"
+    ) {
+      count++;
+    }
   }
+  return count;
 }
+console.log(countVowels(word));
 // Dichiara la funzione qui.
 
 // Invoca la funzione qui e stampa il risultato in console
