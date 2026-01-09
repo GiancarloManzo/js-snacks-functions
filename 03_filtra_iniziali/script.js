@@ -2,6 +2,7 @@
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
+function filterByLetter(array, letter)
 
 // Dichiara la funzione qui.
 
