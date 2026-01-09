@@ -2,7 +2,7 @@
 
 const userName = "Mario";
 
-const saluta = (name) => `ciao ${name}`;
+const saluta = (name) => `Ciao ${name}`;
 
 console.log(saluta(userName));
 
